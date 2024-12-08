@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/crypto-futures/static/css/main.e6c13ad2.css",
-    "main.js": "/crypto-futures/static/js/main.113559e1.js",
+    "main.js": "/crypto-futures/static/js/main.f2f10255.js",
     "static/media/web-skeleton.png": "/crypto-futures/static/media/web-skeleton.6cf75678c59544b65ea9.png",
     "static/media/buildings-outlines-01.jpg": "/crypto-futures/static/media/buildings-outlines-01.e55765140064a2e255f4.jpg",
+    "static/media/dining-06.png": "/crypto-futures/static/media/dining-06.bffbe61eafae2162bfe3.png",
+    "static/media/dining-07.png": "/crypto-futures/static/media/dining-07.6796b26380d88cd1803d.png",
     "static/media/residence-04.png": "/crypto-futures/static/media/residence-04.6f6e2b7f16c69af378ab.png",
     "static/media/residence-03.png": "/crypto-futures/static/media/residence-03.eda2500d8a5c5ef3c3c2.png",
     "static/media/residence-05.png": "/crypto-futures/static/media/residence-05.a0688c68b7eb34dac96b.png",
     "index.html": "/crypto-futures/index.html",
     "main.e6c13ad2.css.map": "/crypto-futures/static/css/main.e6c13ad2.css.map",
-    "main.113559e1.js.map": "/crypto-futures/static/js/main.113559e1.js.map"
+    "main.f2f10255.js.map": "/crypto-futures/static/js/main.f2f10255.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.113559e1.js"
+    "static/js/main.f2f10255.js"
   ]
 }
