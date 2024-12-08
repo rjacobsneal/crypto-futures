@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
+import WebSkeleton from "../assets/web-skeleton.png";
 
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-color: #ffffff;
   position: relative;
 `;
@@ -15,7 +16,6 @@ const Container = styled.div`
 const BackgroundImage = styled.img`
   width: 1920px;
   height: 1080px;
-  object-fit: cover;
 `;
 
 const Box = styled.div`
@@ -32,7 +32,7 @@ const Box = styled.div`
 
 const TextBox = styled.div`
   position: absolute;
-  top: ${({ top }) => top + (271 + 43)}px; /* Place directly below the box */
+  top: ${({ top }) => top + (271 + 43)}px;
   left: ${({ left }) => left}px;
   width: 271px;
   height: 271px;
@@ -90,10 +90,7 @@ const Intro = () => {
 
   return (
     <Container>
-      <BackgroundImage
-        src="/web-skeleton.png" // Replace with your actual image path
-        alt="background"
-      />
+      <BackgroundImage src={WebSkeleton} alt="background" />
       {boxPositions.map((pos, index) => (
         <React.Fragment key={index}>
           <Box

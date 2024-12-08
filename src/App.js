@@ -5,7 +5,7 @@ import Site from "./components/Site";
 import Warehouse from "./components/Warehouse";
 
 const App = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" element={<Intro />} />
       <Route path="/site" element={<Site />} />

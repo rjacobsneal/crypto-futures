@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import BuildingsAerial from "../assets/buildings-outlines-01.jpg";
 
 const Container = styled.div`
   width: 100vw;
@@ -45,7 +46,7 @@ const Site = () => {
   };
 
   const handleFirstBoxClick = () => {
-    setIsFirstBoxClicked(true); // Set first box as clicked
+    setIsFirstBoxClicked(true);
   };
 
   const boxPositions = [
@@ -109,11 +110,7 @@ const Site = () => {
 
   return (
     <Container>
-      <Image
-        ref={imageRef}
-        src="/buildings-outlines-01.jpg"
-        alt="central image"
-      />
+      <Image ref={imageRef} src={BuildingsAerial} alt="central image" />
       {boxPositions.map((position, index) => {
         const { top, left, width, height, url } = position;
         const boxStyle = {
