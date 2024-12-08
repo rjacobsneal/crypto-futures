@@ -1,6 +1,6 @@
 {
-  "name": "crypto-futures",
   "homepage": "https://rjacobsneal.github.io/crypto-futures",
+  "name": "crypto-futures",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
