@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/crypto-futures/static/css/main.e6c13ad2.css",
-    "main.js": "/crypto-futures/static/js/main.08287125.js",
+    "main.js": "/crypto-futures/static/js/main.3826de73.js",
+    "static/media/heat-recycling-14.png": "/crypto-futures/static/media/heat-recycling-14.f68ba3bc01f4b9a3a78e.png",
     "static/media/web-skeleton.png": "/crypto-futures/static/media/web-skeleton.6cf75678c59544b65ea9.png",
     "static/media/energy.png": "/crypto-futures/static/media/energy.9e83ade1cc530785bb34.png",
     "static/media/buildings-outlines-01.jpg": "/crypto-futures/static/media/buildings-outlines-01.e55765140064a2e255f4.jpg",
     "static/media/dining-06.png": "/crypto-futures/static/media/dining-06.bffbe61eafae2162bfe3.png",
     "static/media/dining-07.png": "/crypto-futures/static/media/dining-07.6796b26380d88cd1803d.png",
+    "static/media/heat-recycling-10.png": "/crypto-futures/static/media/heat-recycling-10.fc10779febd6826e37f8.png",
     "static/media/residence-04.png": "/crypto-futures/static/media/residence-04.6f6e2b7f16c69af378ab.png",
     "static/media/residence-03.png": "/crypto-futures/static/media/residence-03.eda2500d8a5c5ef3c3c2.png",
     "static/media/residence-05.png": "/crypto-futures/static/media/residence-05.a0688c68b7eb34dac96b.png",
     "index.html": "/crypto-futures/index.html",
     "main.e6c13ad2.css.map": "/crypto-futures/static/css/main.e6c13ad2.css.map",
-    "main.08287125.js.map": "/crypto-futures/static/js/main.08287125.js.map"
+    "main.3826de73.js.map": "/crypto-futures/static/js/main.3826de73.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.08287125.js"
+    "static/js/main.3826de73.js"
   ]
 }
