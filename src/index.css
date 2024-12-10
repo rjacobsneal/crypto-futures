@@ -1,13 +1,78 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.black-box {
+  position: absolute;
+  top: 43px;
+  left: 43px;
+  width: 1834px;
+  height: 994px;
+  background-color: black;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 405px;
+  left: 825px;
+  width: 271px;
+  height: 271px;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Cascadia Code", monospace;
+  line-height: 1.25;
+  box-sizing: border-box;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.overlay {
+  position: absolute;
+  top: 745px;
+  left: 1097px;
+  width: 745px;
+  height: 275px;
+  background-color: rgba(0, 0, 0, 1);
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
 }

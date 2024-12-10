@@ -34,7 +34,7 @@ const Box = styled.div`
 
 const Site = () => {
   const [hoveredBoxes, setHoveredBoxes] = useState([]);
-  const [isFirstBoxClicked, setIsFirstBoxClicked] = useState(false); // Track first box state
+  const [isFirstBoxClicked, setIsFirstBoxClicked] = useState(false);
   const imageRef = useRef(null);
 
   const handleMouseEnter = (index) => {
@@ -62,28 +62,21 @@ const Site = () => {
       left: 130,
       width: 273,
       height: 160,
-      url: "/warehouse",
+      url: "/recycling",
     },
     {
       top: 700,
       left: 479,
       width: 273,
       height: 160,
-      url: "/warehouse-2",
+      url: "/classrooms",
     },
     {
       top: 702,
       left: 830,
       width: 276,
       height: 160,
-      url: "/warehouse-3",
-    },
-    {
-      top: 702,
-      left: 1178,
-      width: 279,
-      height: 160,
-      url: "/warehouse-4",
+      url: "/computing",
     },
     {
       top: 500,
@@ -121,7 +114,6 @@ const Site = () => {
         };
 
         if (index === 0) {
-          // Handle the first box separately
           return (
             <Link to={url} key={index} style={{ textDecoration: "none" }}>
               <Box
@@ -138,7 +130,7 @@ const Site = () => {
 
         return (
           <Link
-            to={isFirstBoxClicked ? url : "#"} // Enable links only if the first box is clicked
+            to={isFirstBoxClicked ? url : "#"}
             key={index}
             style={{
               textDecoration: "none",
