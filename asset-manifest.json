@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/crypto-futures/static/css/main.8845b2e3.css",
-    "main.js": "/crypto-futures/static/js/main.07592283.js",
+    "main.css": "/crypto-futures/static/css/main.07e26b68.css",
+    "main.js": "/crypto-futures/static/js/main.553cba7b.js",
     "static/media/heat-recycling-14.png": "/crypto-futures/static/media/heat-recycling-14.f68ba3bc01f4b9a3a78e.png",
     "static/media/web-skeleton.png": "/crypto-futures/static/media/web-skeleton.6cf75678c59544b65ea9.png",
     "static/media/energy.png": "/crypto-futures/static/media/energy.9e83ade1cc530785bb34.png",
@@ -17,11 +17,11 @@
     "static/media/classroom-11.png": "/crypto-futures/static/media/classroom-11.e4e9ac5a7738a20e6804.png",
     "static/media/classroom-12.png": "/crypto-futures/static/media/classroom-12.aca52b08d282ae6a3322.png",
     "index.html": "/crypto-futures/index.html",
-    "main.8845b2e3.css.map": "/crypto-futures/static/css/main.8845b2e3.css.map",
-    "main.07592283.js.map": "/crypto-futures/static/js/main.07592283.js.map"
+    "main.07e26b68.css.map": "/crypto-futures/static/css/main.07e26b68.css.map",
+    "main.553cba7b.js.map": "/crypto-futures/static/js/main.553cba7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8845b2e3.css",
-    "static/js/main.07592283.js"
+    "static/css/main.07e26b68.css",
+    "static/js/main.553cba7b.js"
   ]
 }
